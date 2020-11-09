@@ -11,7 +11,6 @@ http.get('http://jsonplaceholder.typicode.com/comments',function(result){
 
     });
 
-
 });
 
 

@@ -5,7 +5,7 @@ fs.mkdir("Demo", function () {
         fs.readFile(".//Demo//Test.txt", "utf-8", function (err, message) {
 
             console.log(message)
-            console.log("-------")
+            console.log("------")
             //Ternary Operator(checking Whether File Exis or Not)
 
             message ? console.log(message) : console.log(err)
